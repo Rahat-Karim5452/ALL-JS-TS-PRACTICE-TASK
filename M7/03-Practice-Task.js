@@ -5,7 +5,7 @@ let country = "Bangladesh";
 let isStudent = true;
 
 //Printing Details
-console.log(name);
-console.log(age);
-console.log(country);
-console.log(isStudent);
+console.log("Student Name: ", name);
+console.log("Age: ", age);
+console.log("Living country: ", country);
+console.log("Is Student: ", isStudent);

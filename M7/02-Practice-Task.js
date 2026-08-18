@@ -1,0 +1,8 @@
+//TODO: Create two number variables and print the results of the five basic arithmetic operations.
+let num1 = 25;
+let num2 = 10;
+console.log("Addition: ", num1 + num2);
+console.log("Subtraction: ", num1 - num2);
+console.log("Modulus: ", num1 % num2);
+console.log("Multiplication: ", num1 * num2);
+console.log("Division: ", num1 / num2);

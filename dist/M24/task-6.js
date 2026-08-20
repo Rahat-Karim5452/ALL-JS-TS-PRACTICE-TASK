@@ -12,5 +12,5 @@ const canAccessOfflineMode = (tier) => {
 console.log(canAccessOfflineMode("free"));
 console.log(canAccessOfflineMode("pro"));
 console.log(canAccessOfflineMode("premium"));
-console.log(canAccessOfflineMode("student"));
+// console.log(canAccessOfflineMode("student"));
 //# sourceMappingURL=task-6.js.map

@@ -8,5 +8,5 @@ console.log(findOnDutyEmployees([
     { name: "Abc", onDuty: true },
     { name: "somebody", onDuty: false },
 ]));
-console.log(findOnDutyEmployees([{ name: "Nusrat", onDuty: false }]));
+console.log(findOnDutyEmployees([{ name: "Nusrat", onDuty: true }]));
 //# sourceMappingURL=6-findOnDutyEmployees.js.map

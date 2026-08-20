@@ -11,4 +11,5 @@ const products = [
     { name: "Dell XPS", price: 110000, category: "laptop" },
 ];
 console.log(findProducts(products, "phone"));
+console.log(findProducts(products, "laptop"));
 //# sourceMappingURL=7-findProducts.js.map

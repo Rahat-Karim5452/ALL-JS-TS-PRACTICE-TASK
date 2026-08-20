@@ -3,7 +3,7 @@ interface Employee {
   onDuty: boolean;
 }
 
-const findOnDutyEmployees = (employees: Employee[]) => {
+const findOnDutyEmployees = (employees: Employee[]): Employee[] => {
   const onDutyEmployees = employees.filter((employee) => employee.onDuty);
   return onDutyEmployees;
 };
@@ -13,4 +13,4 @@ console.log(
     { name: "somebody", onDuty: false },
   ]),
 );
-console.log(findOnDutyEmployees([{ name: "Nusrat", onDuty: false }]));
+console.log(findOnDutyEmployees([{ name: "Nusrat", onDuty: true }]));

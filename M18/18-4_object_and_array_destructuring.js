@@ -14,3 +14,37 @@
   Example: [a, b] = [b, a]
   Example: [first, ...rest] = [10,20,30,40] -> first=10, rest=[20,30,40]
 */
+
+//*solution-1:
+const responseExttractor = (obj) => {
+  const {
+    user: { name: userName, age = 18 },
+  } = obj;
+  return {
+    userName,
+    age,
+  };
+};
+let response = {
+  user: {
+    name: "rafi",
+    age: 22,
+  },
+};
+let response1 = {
+  user: {
+    name: "rafi",
+  },
+};
+// console.log(responseExttractor(response));
+// console.log(responseExttractor(response1));
+
+//*solution-2:
+const swapAndRestExtractor = (arr) => {};
+let a = 5;
+let b = 10;
+[b, a] = [a, b];
+console.log(a, b);
+let numbers = [1, 2, 34, 5, 4, 2, 1, 56, 7, 52];
+let [first, second, ...rest] = numbers;
+console.log(first, second, rest);

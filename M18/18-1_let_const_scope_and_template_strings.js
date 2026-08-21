@@ -11,12 +11,12 @@ console.log("Final Status: ", status);
 */
 
 // //*Solution:
-// let status = "Order Placed";
-// for (var i = 1; i <= 3; i++) {
-//   let status = "Processing Item " + i;
-//   console.log(status);
-// }
-// console.log("Final status: ", status);
+let status = "Order Placed";
+for (var i = 1; i <= 3; i++) {
+  let status = "Processing Item " + i;
+  console.log(status);
+}
+console.log("Final status: ", status);
 /*
   Problem 2: Receipt Generator (Template Strings)
   Build a receipt generator using template strings — take item name,

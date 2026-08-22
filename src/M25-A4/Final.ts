@@ -34,7 +34,8 @@ const calculateWeeklyTotal = (expenses: number[]): number => {
 
 //Problem-04: Traffic Light Action
 type Light = "red" | "yellow" | "green";
-const getTrafficAction = (light: Light): string => {
+type TrafficAction = "Stop" | "Slow Down" | "Go";
+const getTrafficAction = (light: Light): TrafficAction => {
   if (light === "red") {
     return "Stop";
   } else if (light === "green") {

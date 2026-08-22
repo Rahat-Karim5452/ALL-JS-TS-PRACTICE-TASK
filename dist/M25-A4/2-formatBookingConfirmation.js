@@ -7,7 +7,7 @@ const formatBookingConfirmation = (booking) => {
 };
 const booking1 = { name: "Aisha", guests: 4, time: "7:00 PM" };
 const booking2 = { name: "Rahim", guests: 2, time: "8:30 PM" };
-formatBookingConfirmation(booking1);
-// console.log(formatBookingConfirmation(booking1));
-// console.log(formatBookingConfirmation(booking2));
+// formatBookingConfirmation(booking1);
+console.log(formatBookingConfirmation(booking1));
+console.log(formatBookingConfirmation(booking2));
 //# sourceMappingURL=2-formatBookingConfirmation.js.map

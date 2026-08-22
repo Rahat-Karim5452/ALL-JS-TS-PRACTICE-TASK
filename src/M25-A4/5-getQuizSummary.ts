@@ -3,11 +3,17 @@ interface Result {
   average: number;
 }
 const getQuizSummary = (scores: number[]): Result => {
-  let total = scores.reduce((sum, num) => sum + num, 0);
-  let average = total / scores.length;
+  const total = scores.reduce((sum, num) => sum + num, 0);
+  if (scores.length === 0) {
+    return {
+      total: 0,
+      average: 0,
+    };
+  }
+  const average = total / scores.length;
   return {
     total,
-    average: isNaN(average) ? 0 : average,
+    average,
   };
 };
 console.log(getQuizSummary([8, 9, 7, 10]));

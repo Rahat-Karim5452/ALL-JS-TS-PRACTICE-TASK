@@ -5,7 +5,7 @@ const getQuizSummary = (scores) => {
     let average = total / scores.length;
     return {
         total,
-        average,
+        average: isNaN(average) ? 0 : average,
     };
 };
 console.log(getQuizSummary([8, 9, 7, 10]));

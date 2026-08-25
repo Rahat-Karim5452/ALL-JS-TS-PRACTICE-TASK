@@ -10,5 +10,4 @@ console.log(uppercaseVersion);
 let lowercaseVersion = name.toLowerCase();
 console.log(lowercaseVersion);
 let str = " hi there ";
-
 console.log(str.trim());

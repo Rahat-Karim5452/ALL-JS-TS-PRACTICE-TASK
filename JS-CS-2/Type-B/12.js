@@ -1,5 +1,5 @@
-// 4. Write a function that takes an array of numbers as a parameter and returns a new array containing only the even
-// numbers.
+//TODO: 4. Write a function that takes an array of numbers as a parameter and returns a new array containing only the even
+//TODO: numbers.
 function checkEven(arr) {
   let newArr = [];
   for (let i = 0; i < arr.length; i++) {

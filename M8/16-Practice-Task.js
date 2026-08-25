@@ -1,0 +1,1 @@
+/* Determine whether a number is even or odd using the ternary operator. */

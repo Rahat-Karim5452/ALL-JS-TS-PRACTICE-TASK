@@ -1,10 +1,14 @@
 "use strict";
+// const user = {
+//   name: "Kalim",
+//   age: 23,
+//   city: "Dhaka",
+// };
+// const { name: username, age, city } = user;
+// console.log(username);
 Object.defineProperty(exports, "__esModule", { value: true });
-const user = {
-    name: "Kalim",
-    age: 23,
-    city: "Dhaka",
-};
-const { name } = user;
-console.log(name);
+//Array Destructuring:
+const arr = ["ablu", 34, "khamsal"];
+const [name, age, city] = arr;
+console.log(age);
 //# sourceMappingURL=destructuring.js.map

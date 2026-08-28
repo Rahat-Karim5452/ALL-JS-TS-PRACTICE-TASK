@@ -13,5 +13,15 @@ const newArr2 = [...arr];
 newArr2.push(5);
 newArr2.push(6);
 console.log("New Array: ", newArr2);
-console.log("Original Array: ", arr);
+console.log("Original Array: ", arr2);
+//For Object :
+console.log("=======For Object: Spread Opreator======");
+const user = {
+    name: "Kalim",
+    age: 23,
+    city: "Dhaka",
+};
+const newUser = { ...user, image: "url--" };
+console.log(newUser);
+console.log(user);
 //# sourceMappingURL=spread.js.map
